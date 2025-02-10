@@ -8,7 +8,7 @@ describe('findClosestGitRepository', () => {
       { url: 'https://github.com/example/test' },
     ]
     const result = findClosestGitRepository(repositories, 'https://github.com/example/test.git')
-    expect(result).toEqual(repositories[0])
+    expect(result).toEqual(repositories[0]).
   })
 
   it('should match auth in URL', () => {
