@@ -10,7 +10,7 @@ import { useIsDemoMode } from '@/lib/hooks/use-server-info'
 const POSTHOG_KEY = 'phc_aBzNGHzlOy2C8n1BBDtH7d4qQsIw9d8T0unVlnKfdxB'
 const POSTHOG_HOST = 'https://us.i.posthog.com'
 
-function PostHogPageView(): null {
+function PostHogPageView(): null {。
   const pathname = usePathname()
   const searchParams = useSearchParams()
   const posthog = usePostHog()
