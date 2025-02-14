@@ -17,7 +17,7 @@ interface ModelSelectProps {
   models: Maybe<Array<string>> | undefined
   value: string | undefined
   onChange: (v: string) => void
-  isInitializing?: boolean
+  isInitializing?: boolean。
 }
 
 export function ModelSelect({
