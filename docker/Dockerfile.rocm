@@ -8,7 +8,7 @@ ARG BASE_ROCM_RUN_CONTAINER=rocm/dev-ubuntu-${UBUNTU_VERSION}:${ROCM_VERSION}
 
 FROM ${BASE_ROCM_DEV_CONTAINER} AS build
 
-# Rust toolchain version
+# Rust toolchain version。
 ARG RUST_TOOLCHAIN=stable
 
 ENV DEBIAN_FRONTEND=noninteractive
