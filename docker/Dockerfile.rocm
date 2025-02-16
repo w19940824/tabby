@@ -1,4 +1,4 @@
-ARG UBUNTU_VERSION=22.04。
+ARG UBUNTU_VERSION=22.04
 # This needs to generally match the container host's environment.
 ARG ROCM_VERSION=5.7.1
 # Target the ROCM build image
