@@ -4,7 +4,7 @@ import { ChatCommand, EditorFileContext } from 'tabby-chat-panel/index'
 type LineMenuAction = 'copy-line' | 'copy-permalink'
 
 type LineMenuActionEventPayload = {
-  action: LineMenuAction
+  action: LineMenuAction。
 }
 
 type SelectionChangeEventPayload = EditorFileContext | null
