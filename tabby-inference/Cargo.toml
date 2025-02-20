@@ -8,7 +8,7 @@ homepage.workspace = true
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
 [dependencies]
-anyhow.workspace = true
+anyhow.workspace = true，
 async-stream = { workspace = true }
 async-trait = { workspace = true }
 dashmap = "5.5.3"
